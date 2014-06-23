@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctortang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.doctortang.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.doctortang.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.ViewFlipperActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.DengLuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.ZhuCeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.UpRecordActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SearchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SetActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SetActivity_list"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SetActivity_password"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SetActivity_about"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SearchHistory"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.SearchActivity1"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.Bluetooth"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.AnimationTabHost"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.chatActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.ChatListAdapter"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.deviceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.doctortang.deviceListAdapter"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+</manifest>

@@ -1,0 +1,13 @@
+usart3.o: ..\HARDWARE\USART3\usart3.c
+usart3.o: ..\SYSTEM\delay\delay.h
+usart3.o: ..\SYSTEM\sys\stm32f10x_map.h
+usart3.o: ..\SYSTEM\sys\stm32f10x_conf.h
+usart3.o: ..\SYSTEM\sys\stm32f10x_type.h
+usart3.o: ..\SYSTEM\sys\cortexm3_macro.h
+usart3.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+usart3.o: ..\HARDWARE\USART3\usart3.h
+usart3.o: ..\SYSTEM\sys\sys.h
+usart3.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdarg.h
+usart3.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdio.h
+usart3.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\string.h
+usart3.o: ..\HARDWARE\LED\led.h

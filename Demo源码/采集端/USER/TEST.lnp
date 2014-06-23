@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "stm32f10x.o" "test.o" "delay.o" "sys.o" "usart.o" "led.o" "key.o" "timer.o" "ili93xx.o" "hc05.o" "bluetooth.o" "usart3.o" "usart2.o" "usmart.o" "usmart_config.o" "usmart_str.o" --strict --scatter "TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TEST.map" -o "TEST.axf"

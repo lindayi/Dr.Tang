@@ -1,0 +1,11 @@
+mmc_sd.o: ..\HARDWARE\SD\MMC_SD.C
+mmc_sd.o: ..\SYSTEM\sys\sys.h
+mmc_sd.o: ..\SYSTEM\sys\stm32f10x_map.h
+mmc_sd.o: ..\SYSTEM\sys\stm32f10x_conf.h
+mmc_sd.o: ..\SYSTEM\sys\stm32f10x_type.h
+mmc_sd.o: ..\SYSTEM\sys\cortexm3_macro.h
+mmc_sd.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+mmc_sd.o: ..\HARDWARE\SD\mmc_sd.h
+mmc_sd.o: ..\HARDWARE\SPI\spi.h
+mmc_sd.o: ..\SYSTEM\usart\usart.h
+mmc_sd.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdio.h

@@ -1,0 +1,15 @@
+hc05.o: ..\HARDWARE\HC05\hc05.c
+hc05.o: ..\SYSTEM\delay\delay.h
+hc05.o: ..\SYSTEM\sys\stm32f10x_map.h
+hc05.o: ..\SYSTEM\sys\stm32f10x_conf.h
+hc05.o: ..\SYSTEM\sys\stm32f10x_type.h
+hc05.o: ..\SYSTEM\sys\cortexm3_macro.h
+hc05.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+hc05.o: ..\SYSTEM\usart\usart.h
+hc05.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdio.h
+hc05.o: ..\HARDWARE\USART3\usart3.h
+hc05.o: ..\SYSTEM\sys\sys.h
+hc05.o: ..\HARDWARE\HC05\hc05.h
+hc05.o: ..\HARDWARE\LED\led.h
+hc05.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\string.h
+hc05.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\math.h

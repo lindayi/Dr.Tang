@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="dept0">
+        <item>早餐前</item>
+        <item>早餐后</item>
+        <item>午餐前</item>
+        <item>午餐后</item>
+        <item>晚餐前</item>
+        <item>晚餐后</item>
+        <item>睡觉前</item>
+    </string-array>
+    <string-array name="dept1">
+        <item>蔬菜</item>
+        <item>大肉</item>
+        <item>维生素</item>
+    </string-array>
+    
+    <string-array name="dept2">
+        <item>大量运动</item>
+        <item>中量运动</item>
+        <item>小量运动</item>
+    </string-array>
+    
+    <string-array name="dept3">
+        <item>双胍类</item>
+        <item>磺脲类</item>
+        <item>α－糖苷酶抑制剂</item>
+        <item>胰岛素增敏剂</item>
+    </string-array>
+</resources>
+
+
+

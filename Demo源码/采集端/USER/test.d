@@ -1,0 +1,14 @@
+test.o: test.c
+test.o: ..\SYSTEM\sys\sys.h
+test.o: ..\SYSTEM\sys\stm32f10x_map.h
+test.o: ..\SYSTEM\sys\stm32f10x_conf.h
+test.o: ..\SYSTEM\sys\stm32f10x_type.h
+test.o: ..\SYSTEM\sys\cortexm3_macro.h
+test.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+test.o: ..\SYSTEM\delay\delay.h
+test.o: ..\HARDWARE\LED\led.h
+test.o: ..\SYSTEM\usart\usart.h
+test.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdio.h
+test.o: ..\HARDWARE\USART2\usart2.h
+test.o: ..\HARDWARE\LCD\lcd.h
+test.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdlib.h

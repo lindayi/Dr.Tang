@@ -1,0 +1,9 @@
+swap.o: ..\HARDWARE\SWAP\swap.c
+swap.o: ..\HARDWARE\SWAP\swap.h
+swap.o: ..\SYSTEM\sys\sys.h
+swap.o: ..\SYSTEM\sys\stm32f10x_map.h
+swap.o: ..\SYSTEM\sys\stm32f10x_conf.h
+swap.o: ..\SYSTEM\sys\stm32f10x_type.h
+swap.o: ..\SYSTEM\sys\cortexm3_macro.h
+swap.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+swap.o: E:\安装包\keil.uvision4破解版下载\ARM\RV31\INC\stdio.h

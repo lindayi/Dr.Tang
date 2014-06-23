@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/main_image0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/main_logo" />
+
+    <TextView
+        android:id="@+id/main_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_image0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="15dp"
+        android:text="2014-5-22"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/main_blue0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_tv1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_bluetooth2" />
+
+    <ImageView
+        android:id="@+id/main_blue1"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/main_blue0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_bluetooth1" />
+
+    <FrameLayout
+        android:id="@+id/main_Frame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" >
+
+        <ImageView
+            android:id="@+id/main_image1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_logo1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/lashen0"
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/main_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|left"
+                android:layout_toRightOf="@id/lashen0"
+                android:background="@drawable/main_logo2" />
+
+            <TextView
+                android:id="@+id/lashen1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/main_image2" />
+
+            <ImageView
+                android:id="@+id/main_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|left"
+                android:layout_toRightOf="@id/lashen1"
+                android:background="@drawable/main_logo3" />
+
+            <TextView
+                android:id="@+id/lashen2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/main_image3" />
+
+            <ImageView
+                android:id="@+id/main_image4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|left"
+                android:layout_toRightOf="@id/lashen2"
+                android:background="@drawable/main_logo4" />
+
+            <TextView
+                android:id="@+id/lashen3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/main_image4" />
+
+            <ImageView
+                android:id="@+id/main_image5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|left"
+                android:layout_toRightOf="@id/lashen3"
+                android:background="@drawable/main_logo5" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>
